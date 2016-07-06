@@ -1,34 +1,34 @@
 {
-  "name": "i5ting_toc",
-  "version": "1.1.2",
-  "description": "tocmd.npm:a npm wrapper of i5ting_ztree_toc",
+  "name": "itcastmd",
+  "version": "0.0.1",
+  "description": "a npm wrapper for convert markdown to html by itcast fe",
   "keywords": [
     "doc",
     "markdown",
     "md",
-    "toc",
+    "itcast",
     "table of content",
     "ztree",
-    "i5ting_ztree_toc",
-    "i5ting"
+    "html"
   ],
   "main": "index.js",
   "scripts": {
     "start": "npm publish .",
-    "test": " node bin/tocmd.js -f sample.md -v -o"
+    "test": " node bin/itcastmd.js -f sample.md -v -o"
   },
+  //设置命令行软件的配置
   "preferGlobal": "true",
   "bin": {
-    "i5ting_toc": "bin/tocmd.js"
+    "itcastmd": "bin/itcastmd.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/i5ting/tocmd.npm.git"
+    "url": "https://github.com/i5ting/itcastmd.npm.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/i5ting/tocmd.npm/issues"
+    "url": "https://github.com/i5ting/itcastmd.npm/issues"
   },
   "dependencies": {
     "bufferhelper": "^0.2.0",
@@ -45,5 +45,5 @@
     "gulp-watch": "^0.7.0",
     "mocha": "*"
   },
-  "homepage": "https://github.com/i5ting/tocmd.npm"
+  "homepage": "https://github.com/i5ting/itcastmd.npm"
 }

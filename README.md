@@ -1,13 +1,7 @@
-i5ting_toc
+itcastmd 
 =========
 
-[![npm version](https://badge.fury.io/js/i5ting_toc.svg)](http://badge.fury.io/js/i5ting_toc)
-
-i5ting_toc  a node npm wrapper of i5ting_ztree_toc https://github.com/i5ting/i5ting_ztree_toc 
-
-- [ruby版本tocmd](https://github.com/i5ting/tocmd.gem)
-- [node版本i5ting_toc](https://github.com/i5ting/tocmd.npm)
-
+itcastmd 是一个将markdown文件转换成html网站的npm的工具.
 
 ## Preview 
 
@@ -15,17 +9,19 @@ i5ting_toc  a node npm wrapper of i5ting_ztree_toc https://github.com/i5ting/i5t
 
 ## Install 
 
-	npm install -g i5ting_toc
+	npm install -g itcastmd
 	
 ## Usage
 
+常见用法:
+
+```shell
+itcastmd -f sample.md -o
 ```
-➜  tocmd.npm git:(master) ✗ i5ting_toc -h
+这个版本的命令比较简单，只有一个`-f`参数，如果没有填写，默认使用`README.md`
 
-  Usage: i5ting_toc  a node npm wrapper of i5ting_ztree_toc https://github.com/i5ting/i5ting_ztree_toc 
-
-  Options:
-
+```
+  Options:(其他参数)
     -h, --help             output usage information
     -V, --version          output the version number
     -f, --file [filename]  default is README.md 
@@ -33,9 +29,7 @@ i5ting_toc  a node npm wrapper of i5ting_ztree_toc https://github.com/i5ting/i5t
     -v, --verbose          打印详细日志
 ```
 
-这个版本的命令比较简单，只有一个`-f`参数，如果没有填写，默认使用`README.md`，常见用法
 
-	i5ting_toc -f sample.md -o
 	
 ## Api Usages
 
@@ -130,4 +124,4 @@ template for compile use [handlebars](http://handlebarsjs.com/)
 ## License
 
 this repo is released under the [MIT
-License](http://www.opensource.org/licenses/MIT).
+License](./license).
